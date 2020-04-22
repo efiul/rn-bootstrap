@@ -1,0 +1,30 @@
+This project was created according to the following video:
+
+Bootstrapping a React Native Project in 2020
+https://www.youtube.com/watch?v=mqO9EGvt-kU&feature=youtu.be
+
+1. Creating an empty project with expo and TypeScript
+After the following command, choose "blank (TypeScript)"
+> expo init rn-bootstrap
+
+2. Configuring TypeScript
+After creaing the project, open it and edit tsconfig.json (I did the same as the video recommend - may be very strict)
+> cd rn-bootstrap
+> code .
+
+3. Configuring eslint
+As recommended in the video, I took the configuration from:
+https://github.com/wcandillon/eslint-config-react-native-wcandillon
+
+in order to install, run:
+> yarn add eslint eslint-config-react-native-wcandillon --dev
+I had to install yarn using:
+> npm install -g yarn
+
+* Create .eslintrc file and update according to the video.
+* In the video, everytime the file is saved, the prettier fixes the  errors - haven't done that yet.
+* Added 2 commands in package.json, one to run eslint, one to run TypeScript
+
+4. Install react-native-reanimated 
+That's what he is doing in the video...
+https://start-react-native.dev/
