@@ -28,3 +28,11 @@ I had to install yarn using:
 4. Install react-native-reanimated 
 That's what he is doing in the video...
 https://start-react-native.dev/
+
+5. Install react-native-gesture-handler
+* Both packages are expo shaped by expo but in order to use them they should appear in the package.json,
+can use the expo install function for both:
+expo install react-native-reanimated react-native-gesture-handler
+
+* Use these packages since they are using the UI thread and not the JS thread like Animated from react-native
+
